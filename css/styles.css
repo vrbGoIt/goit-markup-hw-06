@@ -746,11 +746,17 @@ form {
     border-color:  #4D5AE5;
   }
 
+  .input-field:focus +.icon-input-field {
+    fill:  #4D5AE5;
+  }
+
   .icon-input-field {
     position: absolute;
     left: 20px;
     top: 50%;
     transform: translateY(-50%);
+    fill: #2E2F42;
+
   }
 
   .area-field {
