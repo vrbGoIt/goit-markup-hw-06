@@ -733,6 +733,72 @@ form {
     padding: 4px;
   }
 
+  .footer-form {
+    margin-left: 80px;
+  }
+
+  .subscribe-label {
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+
+  .subscribe-field {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    background: #2E2F42;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    color: #ffffff;
+  }
+
+  .subscribe-field::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .subscribe-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 24px;
+    min-width: 169px;
+    height: 40px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    background: #4D5AE5;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .subscribe-button:hover,
+  .subscribe-button:focus {
+    background-color: var(--link-hover-color);
+}
+
+  .icon-input-subscribe {
+    display: block;
+  }
+
+  .subscribe-button-wrapper {
+    display: flex;
+  }
+
   .input-field {
     padding-left: 38px;
     width: 100%;
