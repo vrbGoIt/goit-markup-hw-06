@@ -624,7 +624,6 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 0 24px;
     width: 408px;
     min-height: 584px;
     background: #fcfcfc;
@@ -669,7 +668,6 @@ img {
 }
 
 .header-modal {
-    margin-top: 72px;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
