@@ -732,6 +732,7 @@ label {
 }
 
 .text-policy {
+    flex-direction: row;
     padding-left: 6px;
     font-size: 12px;
     line-height: 1.17;
@@ -740,6 +741,8 @@ label {
 }
 
 .virtual-checkbox {
+    position: relative;
+    display: flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -748,6 +751,10 @@ label {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.icon-virtual-checkbox {
+    position: absolute;
 }
 
 .span-policy {
