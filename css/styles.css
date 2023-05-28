@@ -733,6 +733,8 @@ label {
 
 .input-check:checked +.text-policy .virtual-checkbox {
     background-color: var(--link-hover-color);
+    border: none;
+    border-color: var(--link-hover-color);
 }
 
 .input-check:checked +.text-policy .virtual-checkbox .icon-virtual-checkbox{
@@ -754,7 +756,6 @@ label {
 }
 
 .virtual-checkbox {
-    display: inline-flex;
     margin-right: 6px;
     width: 16px;
     height: 16px;
