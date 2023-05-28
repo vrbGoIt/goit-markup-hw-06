@@ -692,6 +692,10 @@ label {
     margin-bottom: 8px;
 }
 
+.area-block {
+    margin-bottom: 16px;
+}
+
 .check-block {
     margin-bottom: 24px;
 }
