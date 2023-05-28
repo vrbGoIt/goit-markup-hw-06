@@ -668,7 +668,7 @@ img {
 }
 
 .header-modal {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -693,11 +693,13 @@ form {
   }
 
   .form-label {
+    display: block;
+    margin-bottom: 4px;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #8E8F99;
   }
 
