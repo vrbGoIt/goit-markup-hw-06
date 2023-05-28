@@ -705,7 +705,7 @@ form {
 
   .form-label-wrapper {
     position: relative;
-    display: block;
+    /* display: block; */
   }
 
   .form-check {
