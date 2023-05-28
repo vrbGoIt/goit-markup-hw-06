@@ -668,7 +668,7 @@ img {
 }
 
 .header-modal {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -680,12 +680,16 @@ img {
 form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    /* gap: 8px; */
   }
   
   label {
     display: flex;
     flex-direction: column;
+  }
+
+  .label-block {
+    margin-bottom: 8px;
   }
 
   .form-label {
