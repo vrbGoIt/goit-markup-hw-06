@@ -731,6 +731,14 @@ label {
     padding-left: 16px;
 }
 
+.input-check:checked +.text-policy .virtual-checkbox {
+    background-color: var(--link-hover-color);
+}
+
+.input-check:checked +.text-policy .virtual-checkbox .icon-virtual-checkbox{
+    fill: #ffffff;
+}
+
 .text-policy {
     flex-direction: row;
     padding-left: 6px;
@@ -740,9 +748,14 @@ label {
     color: var(--grey);
 }
 
+.visually-hidden {
+    appearance: none;
+    position: absolute;
+}
+
 .virtual-checkbox {
-    position: relative;
-    display: flex;
+    display: inline-flex;
+    margin-right: 6px;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -754,7 +767,7 @@ label {
 }
 
 .icon-virtual-checkbox {
-    position: absolute;
+    fill: #FCFCFC;
 }
 
 .span-policy {
@@ -912,7 +925,7 @@ input {
 
 .send-button {
     display: block;
-    margin: 24px auto 0;
+    margin: 0 auto;
     min-width: 169px;
     height: 56px;
     font-family: 'Roboto', sans-serif;
