@@ -609,9 +609,7 @@ img {
 
 .backdrop {
     position: fixed;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    padding: 72px 24px 24px 24px;
     top: 0;
     left: 0;
     width: 100%;
@@ -623,7 +621,7 @@ img {
 
 .modal {
     position: absolute;
-    padding: 72px 24px 24px 24px;
+    /* padding: 72px 24px 24px 24px; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
