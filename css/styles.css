@@ -743,6 +743,7 @@ label {
 }
 
 .text-policy {
+    display: flex;
     flex-direction: row;
     font-size: 12px;
     line-height: 1.17;
