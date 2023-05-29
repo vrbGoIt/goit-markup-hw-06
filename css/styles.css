@@ -728,10 +728,6 @@ label {
     color: #8e8f99;
 }
 
-.input-check {
-    padding: 0;
-}
-
 .input-check:checked +.text-policy .virtual-checkbox {
     background-color: var(--link-hover-color);
     border: none;
@@ -753,6 +749,7 @@ label {
 .visually-hidden {
     appearance: none;
     position: absolute;
+    padding: 0;
 }
 
 .virtual-checkbox {
@@ -765,7 +762,6 @@ label {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    
     fill: transparent;
 }
 
@@ -943,6 +939,11 @@ input {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-button:hover,
+.send-button:focus {
+    background-color: var(--link-hover-color);
 }
 
 .is-hidden {
