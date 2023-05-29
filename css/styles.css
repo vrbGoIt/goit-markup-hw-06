@@ -759,7 +759,6 @@ label {
 
 .virtual-checkbox {
     display: inline-flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-right: 6px;
@@ -767,7 +766,6 @@ label {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    
     fill: transparent;
 }
 
