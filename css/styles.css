@@ -728,6 +728,10 @@ label {
     color: #8e8f99;
 }
 
+.input-check {
+    padding: 0;
+}
+
 .input-check:checked +.text-policy .virtual-checkbox {
     background-color: var(--link-hover-color);
     border: none;
@@ -749,7 +753,6 @@ label {
 .visually-hidden {
     appearance: none;
     position: absolute;
-    padding: 0;
 }
 
 .virtual-checkbox {
@@ -762,6 +765,7 @@ label {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
+    
     fill: transparent;
 }
 
