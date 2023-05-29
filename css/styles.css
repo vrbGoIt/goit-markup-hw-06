@@ -738,7 +738,7 @@ label {
     border-color: var(--link-hover-color);
 }
 
-.visually-hidden:checked +.text-policy .virtual-checkbox .icon-virtual-checkbox {
+.visually-hidden:checked +.text-policy .virtual-checkbox {
     fill: var(--white);
 }
 
