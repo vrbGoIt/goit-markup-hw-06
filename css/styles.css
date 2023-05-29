@@ -728,17 +728,17 @@ label {
     color: #8e8f99;
 }
 
-.input-check {
+/* .input-check {
     padding: 0;
-}
+} */
 
-.input-check:checked +.text-policy .virtual-checkbox {
+.visually-hidden:checked +.text-policy .virtual-checkbox {
     background-color: var(--link-hover-color);
     border: none;
     border-color: var(--link-hover-color);
 }
 
-.input-check:checked +.text-policy .virtual-checkbox .icon-virtual-checkbox{
+.visually-hidden:checked +.text-policy .virtual-checkbox .icon-virtual-checkbox {
     fill: var(--white);
 }
 
@@ -753,6 +753,7 @@ label {
 .visually-hidden {
     appearance: none;
     position: absolute;
+    padding: 0;
 }
 
 .virtual-checkbox {
