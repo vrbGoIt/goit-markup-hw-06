@@ -29,6 +29,7 @@ ul {
     --link-hover: #31d0aa;
     --grey: #8e8f99;
     --fill-media: #f4f4fd;
+    --white: #ffffff;
     --transition-duration-and-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -738,7 +739,7 @@ label {
 }
 
 .input-check:checked +.text-policy .virtual-checkbox .icon-virtual-checkbox{
-    fill: #ffffff;
+    fill: var(--white);
 }
 
 .text-policy {
